@@ -1,0 +1,30 @@
+{
+  "name": "swap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "npx nodemon src/index.ts",
+    "start": "npm run build && node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.5.2",
+    "@types/node": "^20.12.11",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@uniswap/sdk-core": "^5.0.0",
+    "@uniswap/smart-order-router": "^3.28.13",
+    "@uniswap/v2-sdk": "^4.4.0",
+    "@uniswap/v3-sdk": "^3.12.0",
+    "dotenv": "^16.4.5",
+    "ethers": "5.7.2",
+    "jsbi": "^3.2.5",
+    "viem": "^2.10.2"
+  }
+}
